@@ -2,10 +2,10 @@
 
 Links:
 
-- Live app: https://novakepler513.github.io/ai-usage-strata/
-- Source: https://github.com/NovaKepler513/ai-usage-strata
-- Stable release: https://github.com/NovaKepler513/ai-usage-strata/releases/tag/v1.0.0
-- MIT License: https://github.com/NovaKepler513/ai-usage-strata/blob/main/LICENSE
+- Live app: https://yiweicreates.github.io/ai-usage-strata/
+- Source: https://github.com/YiweiCreates/ai-usage-strata
+- Stable release: https://github.com/YiweiCreates/ai-usage-strata/releases/tag/v1.0.0
+- MIT License: https://github.com/YiweiCreates/ai-usage-strata/blob/main/LICENSE
 
 ## Main post
 
@@ -17,12 +17,12 @@ It turns a small personal ledger into a readable record of time, input, output, 
 
 You can enter a date and hours, import a CSV/TSV/JSON file, or ask your own AI workflow to structure a ledger that you review before import. Recorded values remain distinct from estimates, so uncertainty does not disappear inside a clean chart.
 
-Try it: https://novakepler513.github.io/ai-usage-strata/
-Source: https://github.com/NovaKepler513/ai-usage-strata
+Try it: https://yiweicreates.github.io/ai-usage-strata/
+Source: https://github.com/YiweiCreates/ai-usage-strata
 
 I would value feedback on import adapters, accessibility, translations, and ways to make AI-assisted work more legible without giving up privacy. Please keep real ledgers and identifying evidence out of public issues and pull requests.
 
-© 2026 Nova Kepler · Tianyu Vision
+© 2026 Yiwei · Tianyu Vision
 
 ## Short release note
 

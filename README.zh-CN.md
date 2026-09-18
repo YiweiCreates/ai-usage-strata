@@ -1,6 +1,6 @@
 # AI Usage Strata
 
-[English](README.md) · [在线体验](https://novakepler513.github.io/ai-usage-strata/) · [稳定版 v1.0.0](https://github.com/NovaKepler513/ai-usage-strata/releases/tag/v1.0.0) · [让 AI 整理账本](docs/ai-assisted-import.zh-CN.md) · [账本格式](docs/ledger-format.md) · [参与贡献](CONTRIBUTING.md) · [发布素材](docs/launch/README.zh-CN.md) · [MIT 许可证](LICENSE)
+[English](README.md) · [在线体验](https://yiweicreates.github.io/ai-usage-strata/) · [稳定版 v1.0.0](https://github.com/YiweiCreates/ai-usage-strata/releases/tag/v1.0.0) · [让 AI 整理账本](docs/ai-assisted-import.zh-CN.md) · [账本格式](docs/ledger-format.md) · [参与贡献](CONTRIBUTING.md) · [发布素材](docs/launch/README.zh-CN.md) · [MIT 许可证](LICENSE)
 
 > 一个本机优先的可视化账本：把你和 AI 一起工作的时间、文字量与去向，变成一段可回看的记录。
 
@@ -75,7 +75,7 @@ flowchart LR
   F --> G[查看时间地层]
 ```
 
-1. 先打开[在线页面](https://novakepler513.github.io/ai-usage-strata/)，它会有意从“没有数据”开始。
+1. 先打开[在线页面](https://yiweicreates.github.io/ai-usage-strata/)，它会有意从“没有数据”开始。
 2. 点“查看示例”后，才会加载 Atlas Lab 虚构案例；再试着旋转瀑布图、勾选分类、切换时间／输入／输出，并打开一个日期刻痕。
 3. 点“开始填写”，先记一条日期和小时数；这已经足够形成第一条记录。
 4. 如果记录很零散，点“让 AI 整理”：把页面生成的任务说明贴进 Codex、Claude Code 或其他 AI；它会输出 `ai-usage-ledger.json`，你检查后再导入。这里不需要 API Key。
@@ -142,16 +142,16 @@ JSON 是页面保存和导出的轻量、可携带格式。一行可以代表一
 
 - [参与贡献说明](CONTRIBUTING.md)
 - [安全政策](SECURITY.md)
-- [报告问题或提出功能建议](https://github.com/NovaKepler513/ai-usage-strata/issues)
+- [报告问题或提出功能建议](https://github.com/YiweiCreates/ai-usage-strata/issues)
 - [公开发布检查清单](docs/release-checklist.md)
 
 ## 项目与许可证
 
-AI Usage Strata 由 Nova Kepler 在天与视界完成。源码、发行版本、问题反馈和贡献记录都在
-[github.com/NovaKepler513/ai-usage-strata](https://github.com/NovaKepler513/ai-usage-strata)。
+AI Usage Strata 由 Yiwei 在天与视界完成。源码、发行版本、问题反馈和贡献记录都在
+[github.com/YiweiCreates/ai-usage-strata](https://github.com/YiweiCreates/ai-usage-strata)。
 
 代码采用 [MIT License](LICENSE)。如果它让你想到新的用法、发现需要打磨的地方，或希望支持新的导入路径，欢迎在 GitHub
-[提交问题或建议](https://github.com/NovaKepler513/ai-usage-strata/issues)，也欢迎提交边界清楚的 Pull Request。公开 issue 和分支里请不要放真实账本、可识别的证据或个人数据。
+[提交问题或建议](https://github.com/YiweiCreates/ai-usage-strata/issues)，也欢迎提交边界清楚的 Pull Request。公开 issue 和分支里请不要放真实账本、可识别的证据或个人数据。
 
 提交公开 PR 前，先运行：
 
@@ -160,4 +160,4 @@ python3 scripts/validate_ledger.py examples/minimal-ledger.json
 python3 scripts/release_audit.py
 ```
 
-代码采用 MIT License © 2026 Nova Kepler · 天与视界。README 中的 Atlas Lab 账本与所有截图均为虚构示例。
+代码采用 MIT License © 2026 Yiwei · 天与视界。README 中的 Atlas Lab 账本与所有截图均为虚构示例。

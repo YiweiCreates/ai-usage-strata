@@ -1,6 +1,6 @@
 # AI Usage Strata
 
-[简体中文](README.zh-CN.md) · [Live app](https://novakepler513.github.io/ai-usage-strata/) · [Stable v1.0.0](https://github.com/NovaKepler513/ai-usage-strata/releases/tag/v1.0.0) · [How to use AI to prepare a ledger](docs/ai-assisted-import.md) · [Ledger format](docs/ledger-format.md) · [Contribute](CONTRIBUTING.md) · [Launch kit](docs/launch/README.md) · [MIT License](LICENSE)
+[简体中文](README.zh-CN.md) · [Live app](https://yiweicreates.github.io/ai-usage-strata/) · [Stable v1.0.0](https://github.com/YiweiCreates/ai-usage-strata/releases/tag/v1.0.0) · [How to use AI to prepare a ledger](docs/ai-assisted-import.md) · [Ledger format](docs/ledger-format.md) · [Contribute](CONTRIBUTING.md) · [Launch kit](docs/launch/README.md) · [MIT License](LICENSE)
 
 > A local-first visual ledger for the time, text, and work you do with AI.
 
@@ -75,7 +75,7 @@ flowchart LR
   F --> G[Explore the time strata]
 ```
 
-1. Open the [live app](https://novakepler513.github.io/ai-usage-strata/). It starts with no data, by design.
+1. Open the [live app](https://yiweicreates.github.io/ai-usage-strata/). It starts with no data, by design.
 2. Choose “View example” to explore a fictional Atlas Lab case: rotate the waterfall, choose a category, change Time to Input or Output, and open a date mark.
 3. Choose “Start entering” and add a date plus hours; that is enough for a first record.
 4. Choose “Ask AI to organise” if your record is scattered. Copy the generated task into Codex, Claude Code, or another AI; it returns `ai-usage-ledger.json`, which you review and import. No API key is needed.
@@ -150,18 +150,18 @@ This project is MIT-licensed and designed to be extended without weakening its p
 
 - [How to contribute](CONTRIBUTING.md)
 - [Security policy](SECURITY.md)
-- [Report a bug or propose a feature](https://github.com/NovaKepler513/ai-usage-strata/issues)
+- [Report a bug or propose a feature](https://github.com/YiweiCreates/ai-usage-strata/issues)
 - [Release safety checklist](docs/release-checklist.md)
 
 ## Project and licence
 
-AI Usage Strata is made by Nova Kepler at Tianyu Vision. The source, releases,
+AI Usage Strata is made by Yiwei at Tianyu Vision. The source, releases,
 issues, and contribution history live at
-[github.com/NovaKepler513/ai-usage-strata](https://github.com/NovaKepler513/ai-usage-strata).
+[github.com/YiweiCreates/ai-usage-strata](https://github.com/YiweiCreates/ai-usage-strata).
 
 The code is available under the [MIT License](LICENSE). If the tool gives you
 an idea, finds a rough edge, or needs to support a better import path, please
-[open an issue](https://github.com/NovaKepler513/ai-usage-strata/issues) or
+[open an issue](https://github.com/YiweiCreates/ai-usage-strata/issues) or
 send a focused pull request. Keep all real ledgers and identifiable evidence
 out of public issues and branches.
 
@@ -172,4 +172,4 @@ python3 scripts/validate_ledger.py examples/minimal-ledger.json
 python3 scripts/release_audit.py
 ```
 
-Code: MIT © 2026 Nova Kepler · Tianyu Vision. The included Atlas Lab ledger and every screenshot in this README are fictional.
+Code: MIT © 2026 Yiwei · Tianyu Vision. The included Atlas Lab ledger and every screenshot in this README are fictional.

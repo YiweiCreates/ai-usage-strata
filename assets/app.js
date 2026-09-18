@@ -155,7 +155,7 @@
     trigger: "Open copyright notice",
     title: "Copyright & open source",
     close: "Close",
-    credit: "© 2026 Nova Kepler · Tianyu Vision",
+    credit: "© 2026 Yiwei · Tianyu Vision",
     source: "View the project on GitHub",
     license: "Download the MIT License",
     contribute: "Share an idea or contribute on GitHub",
@@ -164,7 +164,7 @@
     trigger: "打开版权说明",
     title: "版权与开源",
     close: "关闭",
-    credit: "© 2026 Nova Kepler · 天与视界",
+    credit: "© 2026 Yiwei · 天与视界",
     source: "在 GitHub 查看项目源码",
     license: "下载 MIT 开源许可证",
     contribute: "欢迎在 GitHub 提建议或参与贡献",
@@ -317,8 +317,8 @@
           <p class="copyright-note">${copyrightUi.note}</p>
           <nav class="copyright-links" aria-label="${copyrightUi.title}">
             <a href="LICENSE" download>${copyrightUi.license}</a>
-            <a href="https://github.com/NovaKepler513/ai-usage-strata" target="_blank" rel="noreferrer">${copyrightUi.source}</a>
-            <a href="https://github.com/NovaKepler513/ai-usage-strata/issues" target="_blank" rel="noreferrer">${copyrightUi.contribute}</a>
+            <a href="https://github.com/YiweiCreates/ai-usage-strata" target="_blank" rel="noreferrer">${copyrightUi.source}</a>
+            <a href="https://github.com/YiweiCreates/ai-usage-strata/issues" target="_blank" rel="noreferrer">${copyrightUi.contribute}</a>
           </nav>
         </div>
       </dialog>
